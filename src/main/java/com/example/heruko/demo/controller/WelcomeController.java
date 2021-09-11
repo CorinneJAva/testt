@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class WelcomeController {
 	
-	@GetMapping("/WELCOME")
+	@GetMapping("/")
 	public String welcome() {
 	return "Welcome to spring bot heruku demo";
 }
